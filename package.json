@@ -1,0 +1,14 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "a sample of MERN stack",
+  "private": true,
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0"
+  }
+}
