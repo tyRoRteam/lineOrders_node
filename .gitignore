@@ -82,3 +82,5 @@ typings/
 # npm package lock file
 package-lock.json
 
+# vscode config files
+.vscode
