@@ -5,11 +5,18 @@
   "private": true,
   "main": "App.js",
   "scripts": {
-    "start": "node App.js"
+    "start": "node App.js",
+    "test": "mocha"
   },
   "dependencies": {
     "express": "^4.16.4",
     "linebot": "^1.4.1",
     "mongoose": "^5.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3",
+    "supertest": "^3.3.0"
   }
 }
